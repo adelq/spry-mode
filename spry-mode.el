@@ -40,6 +40,10 @@
   '("int" "float" "string")
   "Spry literal types defined in #Literals")
 
+(defconst spry-keywords
+  '("and" "or" "not" "else")
+  "Spry keywords (incomplete) from #Booleans")
+
 (defvar wpdl-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
     (modify-syntax-entry ?# "<" synTable)
