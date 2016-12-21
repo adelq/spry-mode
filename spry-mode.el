@@ -44,6 +44,10 @@
   '("and" "or" "not" "else")
   "Spry keywords (incomplete) from #Booleans")
 
+(defconst spry-constants
+  '("true" "false" "nil" "undef")
+  "Spry constants (incomplete) from #Nil and Undef")
+
 (defvar wpdl-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
     (modify-syntax-entry ?# "<" synTable)
