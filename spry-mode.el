@@ -48,6 +48,9 @@
   '("true" "false" "nil" "undef" "modules")
   "Spry constants (incomplete) from #Nil and Undef")
 
+(defconst spry-builtins
+  '("print" "parse" "serialize" "commented" "asFloat" "asInt"))
+
 (defvar wpdl-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
     (modify-syntax-entry ?# "<" synTable)
