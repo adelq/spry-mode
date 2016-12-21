@@ -45,7 +45,7 @@
   "Spry keywords (incomplete) from #Booleans")
 
 (defconst spry-constants
-  '("true" "false" "nil" "undef")
+  '("true" "false" "nil" "undef" "modules")
   "Spry constants (incomplete) from #Nil and Undef")
 
 (defvar wpdl-mode-syntax-table
