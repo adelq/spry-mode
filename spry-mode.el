@@ -34,4 +34,8 @@
     map)
   "Keymap for Spry major mode.")
 
+(add-to-list 'auto-mode-alist '("\\.sy\\'" . spry-mode))
+
+(provide 'spry-mode)
+
 ;;; spry-mode.el ends here
