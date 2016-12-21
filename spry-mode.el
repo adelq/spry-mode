@@ -36,6 +36,10 @@
 
 (add-to-list 'auto-mode-alist '("\\.sy\\'" . spry-mode))
 
+(defconst spry-types
+  '("int" "float" "string")
+  "Spry literal types defined in #Literals")
+
 (defvar wpdl-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
     (modify-syntax-entry ?# "<" synTable)
