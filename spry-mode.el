@@ -36,6 +36,13 @@
 
 (add-to-list 'auto-mode-alist '("\\.sy\\'" . spry-mode))
 
+(defvar wpdl-mode-syntax-table
+  (let ((spry-mode-syntax-table (make-syntax-table)))
+    (modify-syntax-entry ?# "<" synTable)
+    (modify-syntax-entry ?\n ">" synTable)
+    spry-mode-syntax-table)
+  "Syntax table for spry-mode.")
+
 (provide 'spry-mode)
 
 ;;; spry-mode.el ends here
