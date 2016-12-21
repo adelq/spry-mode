@@ -20,9 +20,18 @@
 ;; Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
 ;; MA 02111-1307 USA
 
+
+;;; Commentary:
+;;
+;; This mode is a WIP mode for the Spry language.
+
+;;; Code:
+
 (defvar spry-mode-hook nil)
 (defvar spry-mode-map
   (let ((map (make-keymap)))
     (define-key map "\C-j" 'newline-and-indent)
     map)
-  "Keymap for Spry major mode")
+  "Keymap for Spry major mode.")
+
+;;; spry-mode.el ends here
