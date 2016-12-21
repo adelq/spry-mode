@@ -38,15 +38,15 @@
 
 (defconst spry-types
   '("int" "float" "string")
-  "Spry literal types defined in #Literals")
+  "Spry literal types defined in #Literals.")
 
 (defconst spry-keywords
   '("and" "or" "not" "else")
-  "Spry keywords (incomplete) from #Booleans")
+  "Spry keywords (incomplete) from #Booleans.")
 
 (defconst spry-constants
   '("true" "false" "nil" "undef" "modules")
-  "Spry constants (incomplete) from #Nil and Undef")
+  "Spry constants (incomplete) from #Nil and Undef.")
 
 (defconst spry-builtins
   '("print" "parse" "serialize" "commented" "asFloat" "asInt"))
