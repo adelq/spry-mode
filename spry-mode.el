@@ -51,7 +51,7 @@
 (defconst spry-builtins
   '("print" "parse" "serialize" "commented" "asFloat" "asInt"))
 
-(defvar wpdl-mode-syntax-table
+(defvar spry-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
     (modify-syntax-entry ?# "<" synTable)
     (modify-syntax-entry ?\n ">" synTable)
