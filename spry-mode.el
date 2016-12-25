@@ -50,7 +50,7 @@
 
 (defconst spry-builtins
   '("print" "parse" "serialize" "commented" "asFloat" "asInt"
-    "do" "$" "eva" "eval" "^"))
+    "do" "$" "eva" "eval" "^" "reify" "litify" "quote" "litword" "word"))
 
 (defvar spry-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
