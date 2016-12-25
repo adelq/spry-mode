@@ -49,7 +49,8 @@
   "Spry constants (incomplete) from #Nil and Undef.")
 
 (defconst spry-builtins
-  '("print" "parse" "serialize" "commented" "asFloat" "asInt"))
+  '("print" "parse" "serialize" "commented" "asFloat" "asInt"
+    "do" "$" "eva" "eval" "^"))
 
 (defvar spry-mode-syntax-table
   (let ((spry-mode-syntax-table (make-syntax-table)))
